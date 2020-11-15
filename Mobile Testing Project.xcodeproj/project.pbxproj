@@ -14,8 +14,10 @@
 		F03E9C322560ED2900B0C78B /* Mobile_Testing_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F03E9C302560ED2900B0C78B /* Mobile_Testing_Project.xcdatamodeld */; };
 		F03E9C342560ED2A00B0C78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03E9C332560ED2A00B0C78B /* Assets.xcassets */; };
 		F03E9C372560ED2A00B0C78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03E9C352560ED2A00B0C78B /* LaunchScreen.storyboard */; };
-		F03E9C5A2560F4E800B0C78B /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03E9C582560F4E800B0C78B /* Recipe+CoreDataProperties.swift */; };
-		F03E9C5B2560F4E800B0C78B /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03E9C592560F4E800B0C78B /* Category+CoreDataProperties.swift */; };
+		F03E9C622560F93800B0C78B /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03E9C5E2560F93800B0C78B /* Category+CoreDataClass.swift */; };
+		F03E9C632560F93800B0C78B /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03E9C5F2560F93800B0C78B /* Category+CoreDataProperties.swift */; };
+		F03E9C642560F93800B0C78B /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03E9C602560F93800B0C78B /* Recipe+CoreDataClass.swift */; };
+		F03E9C652560F93800B0C78B /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03E9C612560F93800B0C78B /* Recipe+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		F03E9C332560ED2A00B0C78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03E9C362560ED2A00B0C78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03E9C382560ED2A00B0C78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F03E9C582560F4E800B0C78B /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		F03E9C592560F4E800B0C78B /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F03E9C5E2560F93800B0C78B /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataClass.swift"; path = "../Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F03E9C5F2560F93800B0C78B /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataProperties.swift"; path = "../Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F03E9C602560F93800B0C78B /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataClass.swift"; path = "../Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F03E9C612560F93800B0C78B /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 		F03E9C3F2560F3E800B0C78B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F03E9C582560F4E800B0C78B /* Recipe+CoreDataProperties.swift */,
-				F03E9C592560F4E800B0C78B /* Category+CoreDataProperties.swift */,
+				F03E9C5E2560F93800B0C78B /* Category+CoreDataClass.swift */,
+				F03E9C5F2560F93800B0C78B /* Category+CoreDataProperties.swift */,
+				F03E9C602560F93800B0C78B /* Recipe+CoreDataClass.swift */,
+				F03E9C612560F93800B0C78B /* Recipe+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,11 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F03E9C5A2560F4E800B0C78B /* Recipe+CoreDataProperties.swift in Sources */,
-				F03E9C5B2560F4E800B0C78B /* Category+CoreDataProperties.swift in Sources */,
 				F03E9C2C2560ED2900B0C78B /* ViewController.swift in Sources */,
+				F03E9C632560F93800B0C78B /* Category+CoreDataProperties.swift in Sources */,
+				F03E9C642560F93800B0C78B /* Recipe+CoreDataClass.swift in Sources */,
 				F03E9C282560ED2900B0C78B /* AppDelegate.swift in Sources */,
 				F03E9C322560ED2900B0C78B /* Mobile_Testing_Project.xcdatamodeld in Sources */,
+				F03E9C652560F93800B0C78B /* Recipe+CoreDataProperties.swift in Sources */,
+				F03E9C622560F93800B0C78B /* Category+CoreDataClass.swift in Sources */,
 				F03E9C2A2560ED2900B0C78B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
